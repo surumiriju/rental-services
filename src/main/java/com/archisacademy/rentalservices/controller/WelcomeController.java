@@ -10,5 +10,13 @@ public class WelcomeController {
     public String welcometotraining(){
         return "Hello from Archis";
 
+
     }
+    @GetMapping(value="/hello")
+    public String helloToTraining(){
+        return "Hello from Surumi";
+
+
+    }
+
 }
